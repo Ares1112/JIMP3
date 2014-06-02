@@ -97,7 +97,7 @@ bool aghVector<T> :: remove(int _index)
          for(int i = _index; i < size() - 1; i++)
             vektor[i] = vektor[i + 1];
 
-         vektor[size() - 1].~T();
+         
          iloscElem--;
 
          if(wolnaPamiec() > krokPam)
